@@ -1,0 +1,29 @@
+Copyright (c) 2026 VegaBuildsAI. All rights reserved.
+
+PROPRIETARY AND CONFIDENTIAL
+
+This repository and its contents (the "Work") — including the Claude skills
+under en/ and es/, the Excel templates under templates/, the scripts under
+scripts/, and all accompanying documentation — are proprietary and
+confidential to VegaBuildsAI.
+
+No part of the Work may be reproduced, distributed, published, sublicensed,
+or used to create derivative works, in whole or in part, by any means,
+without the prior written permission of VegaBuildsAI, except as expressly
+permitted in writing.
+
+Permission is granted to the repository owner and to collaborators expressly
+invited by the owner to view and use the Work internally for the purpose of
+developing and operating SSC/GBS deployment programs.
+
+The Work is an original synthesis of widely adopted Big 4 / Global Business
+Services industry practices. Toolkit code conventions (e.g. SSC and FNT
+numbering) are used as neutral industry references and do not imply endorsement
+by, or affiliation with, any specific firm.
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE WORK OR THE USE OR
+OTHER DEALINGS IN THE WORK.

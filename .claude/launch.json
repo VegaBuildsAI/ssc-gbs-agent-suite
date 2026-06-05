@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "update-cr-data",
+      "description": "Refresh Costa Rica market data from CINDE/PROCOMER and regenerate the changelog (one-shot CLI, not a server).",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["scripts/update_cr_data.py"]
+    },
+    {
+      "name": "update-cr-data (dry-run)",
+      "description": "Preview the CINDE/PROCOMER refresh without writing any files.",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["scripts/update_cr_data.py", "--dry-run", "--verbose"]
+    },
+    {
+      "name": "build-excel-templates",
+      "description": "Regenerate the Business Case and KPI Dashboard .xlsx templates into templates/ (one-shot CLI, not a server).",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["scripts/build_excel_templates.py"]
+    }
+  ]
+}

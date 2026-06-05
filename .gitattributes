@@ -1,0 +1,23 @@
+# Normalize line endings: let Git decide text vs binary, store LF in the repo.
+* text=auto
+
+# Text files we want to keep LF-normalized explicitly
+*.md   text
+*.py   text
+*.json text
+*.bat  text eol=crlf
+
+# Treat skill bundles and Office artifacts as binary (no EOL munging, no diff noise)
+*.skill binary
+*.xlsx  binary
+*.xlsm  binary
+*.ppt   binary
+*.pptx  binary
+*.doc   binary
+*.docx  binary
+*.pdf   binary
+*.zip   binary
+
+# Diagram exports
+*.png binary
+*.svg text
