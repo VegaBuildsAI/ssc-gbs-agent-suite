@@ -37,12 +37,12 @@ remaining skills are stage specialists. This is the English edition; the Spanish
 
 ## ARCHITECTURE — UNIFIED TOOLKIT
 
-A single toolkit: the **orchestrator** coordinates all 14 skills, grouped by capability
-area (not a sequential phase pipeline).
+A single toolkit: the **orchestrator** coordinates 14 skills organized into 4 capability
+areas (not a phase pipeline). Each skill is detailed in the tables below.
 
 ![SSC/GBS Agent Suite — Unified toolkit](../docs/architecture.png)
 
-> Vector version: [docs/architecture.svg](../docs/architecture.svg) · Editable in FigJam: [open](https://www.figma.com/board/uYtRtE7TXOp7dM3OgCaovU)
+> Vector version: [docs/architecture.svg](../docs/architecture.svg) · Editable in FigJam: [open](https://www.figma.com/board/TMV2vXlDj8R3jjhCb1pTna)
 
 ---
 

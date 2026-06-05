@@ -13,12 +13,12 @@ Cada archivo `.md` es un **system prompt de agente** que puedes cargar en Claude
 
 ## ARQUITECTURA — TOOLKIT UNIFICADO
 
-Un solo toolkit: el **orquestador** coordina los 14 skills, agrupados por área de
-capacidad (no es un pipeline secuencial por fases).
+Un solo toolkit: el **orquestador** coordina 14 skills organizados en 4 áreas de
+capacidad (no es un pipeline por fases). El detalle de cada skill está en las tablas siguientes.
 
 ![SSC/GBS Agent Suite — Toolkit unificado](docs/architecture.png)
 
-> Versión vectorial: [docs/architecture.svg](docs/architecture.svg) · Editable en FigJam: [abrir](https://www.figma.com/board/uYtRtE7TXOp7dM3OgCaovU)
+> Versión vectorial: [docs/architecture.svg](docs/architecture.svg) · Editable en FigJam: [abrir](https://www.figma.com/board/TMV2vXlDj8R3jjhCb1pTna)
 
 ---
 
@@ -160,16 +160,13 @@ SSC-Agents/
 ├── scripts/
 │   ├── update_cr_data.py                 (refresco CINDE/PROCOMER + changelog)
 │   └── build_excel_templates.py          (regenera los templates)
-├── source-documents/       ← Toolkit Big 4 original (SSC01–39, FNT, R2R) vía Git LFS *
+├── docs/architecture.(png|svg)           (diagrama del toolkit)
 ├── 00–10_*.md              ← system prompts fuente (referencia)
+├── run.bat                 ← runner de tareas (Windows)
 ├── LICENSE                 ← Propietario / All Rights Reserved (VegaBuildsAI)
-├── .gitattributes          ← normaliza EOL + Git LFS para source-documents/
+├── .gitattributes          ← normaliza fin de línea (EOL)
 └── CLAUDE.md
 ```
-
-> \* `source-documents/` contiene materiales de referencia de las Big 4 (propiedad de sus dueños,
-> incluidos solo como referencia interna — ver `LICENSE`). Se versionan con **Git LFS**;
-> tras clonar, ejecutar `git lfs pull` para descargar los binarios.
 
 ### Módulos nuevos (extensiones GBS)
 | Módulo | Skill | Cubre |
