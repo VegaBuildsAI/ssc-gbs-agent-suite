@@ -40,9 +40,9 @@ remaining skills are stage specialists. This is the English edition; the Spanish
 A single toolkit: the **orchestrator** coordinates all 14 skills, grouped by capability
 area (not a sequential phase pipeline).
 
-![SSC/GBS Agent Suite — Unified toolkit](../docs/architecture.svg)
+![SSC/GBS Agent Suite — Unified toolkit](../docs/architecture.png)
 
-> Editable FigJam diagram: [open](https://www.figma.com/board/uYtRtE7TXOp7dM3OgCaovU)
+> Vector version: [docs/architecture.svg](../docs/architecture.svg) · Editable in FigJam: [open](https://www.figma.com/board/uYtRtE7TXOp7dM3OgCaovU)
 
 ---
 

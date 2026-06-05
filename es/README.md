@@ -16,9 +16,9 @@ Cada archivo `.md` es un **system prompt de agente** que puedes cargar en Claude
 Un solo toolkit: el **orquestador** coordina los 14 skills, agrupados por área de
 capacidad (no es un pipeline secuencial por fases).
 
-![SSC/GBS Agent Suite — Toolkit unificado](docs/architecture.svg)
+![SSC/GBS Agent Suite — Toolkit unificado](docs/architecture.png)
 
-> Diagrama editable en FigJam: [abrir](https://www.figma.com/board/uYtRtE7TXOp7dM3OgCaovU)
+> Versión vectorial: [docs/architecture.svg](docs/architecture.svg) · Editable en FigJam: [abrir](https://www.figma.com/board/uYtRtE7TXOp7dM3OgCaovU)
 
 ---
 
